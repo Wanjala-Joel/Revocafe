@@ -1,0 +1,126 @@
+@media (max-width: 480px){
+    body{ 
+        overflow-x: hidden;
+    }
+
+    .btn-scroll{
+        display: block;
+        background: none;
+        border: none;
+        font-size: 22px;
+        margin-left: 90%;
+        outline: none;
+    }
+    
+    .add-navigation{
+        display: none;
+    }
+
+    .btn-absolute{ top: 50%; }
+
+
+    /************************************************************************
+    /*     NAVIGATION    */
+
+    header nav{
+        padding-top: 3%;
+    }
+
+    .navigation{
+        background-color: #fff;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .navigation li a{ color: #333; }
+
+
+
+    /************************************************************************
+    /*     HEADER   */
+
+    header{ height: 90vh; }
+    header img{ width: 15%; }
+
+    header .header-content{ margin-left: 40px; }
+
+    header .header-content h1{ font-size: 22px; }
+
+    header .header-content p{ font-size: 18px; }
+
+    header .btn{ font-size: 18px; }
+
+    /************************************************************************
+    /*     DELIVERY   */
+
+    .delivery-content h2{ font-size: 20px; }
+
+    .delivery-content h3{ font-size: 14px; }
+
+    .delivery-content .larger-font{ font-size: 16px; }
+
+    .delivery-content p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    /************************************************************************
+    /*     HOW IT WORKS   */
+
+    #how-it-works{ float: none !important; }
+
+    .how-content h2{ font-size: 20px; }
+
+    .how-content img{
+        width: 150px;
+        margin-left: 30%;
+    }
+
+    .how-content .left-float{
+        margin-left: 4%;
+        padding-top: 90%;
+        font-size: 18px;
+    }
+
+    .number{ padding: 4px 8px; }
+
+
+    /************************************************************************
+    /*     CITIES   */
+
+    #cities h2{ font-size: 20px; }
+
+    .row h3{ font-size: 15px; }
+
+
+    /************************************************************************
+    /*     SIGN UP   */
+
+    #sign-up h2{ font-size: 20px; }
+
+    .sign-up .border-style{
+        margin-right: 50px;
+        margin-bottom: 30px;
+        height: 68vh;
+    }
+
+
+    /************************************************************************
+    /*     NEWSLETTER   */
+
+    .form-field{
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    #newsletter h2{ font-size: 20px; }
+
+
+    /************************************************************************
+    /*     FOOTER   */
+
+    footer p{ font-size: 16px; }
+
+}    
